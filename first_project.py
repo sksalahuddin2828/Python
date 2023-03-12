@@ -5,7 +5,7 @@ print(" ")
 
 proceed = input("Do you want to proceed: Yes/No \n")
 
-if proceed == "Yes" or "yes" or "yES" or "yEs" or "YEs":
+if proceed == "Yes":
     print(" ")
     
     number_of_book = float(input("One book costs 4.99 USD. Hoy many books do you want?\n"))
@@ -23,5 +23,5 @@ if proceed == "Yes" or "yes" or "yES" or "yEs" or "YEs":
     print("Your total bill is: " + str(total_costs))
     print("You can payment via VISA / MasterCard / bKash / Upay / Nagad / Gpay / Qcash / Maestro")
 
-elif proceed == "No" or "no" or "nO":
-    print("Thank you for your interest, see yo in time. Have a good day")
+elif proceed == "No":
+    print("Thank you for your interest, see you in next time. Have a good day")
