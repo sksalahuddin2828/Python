@@ -23,5 +23,5 @@ if proceed == "Yes" or "yes" or "yES" or "yEs":
     print("Your total bill is: " + str(total_costs))
     print("You can payment via VISA / MasterCard / bKash / Upay / Nagad / Gpay / Qcash / Maestro")
 
-elif proceed == "No" or "no":
+elif proceed == "No" or "no" or "nO":
     print("Thank you for your interest, see yo in time. Have a good day")
