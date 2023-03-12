@@ -5,7 +5,7 @@ print(" ")
 
 proceed = input("Do you want to proceed: Yes/No \n")
 
-if proceed == "Yes" or "yes" or "yES" or "yEs":
+if proceed == "Yes" or "yes" or "yES" or "yEs" or "YEs":
     print(" ")
     
     number_of_book = float(input("One book costs 4.99 USD. Hoy many books do you want?\n"))
