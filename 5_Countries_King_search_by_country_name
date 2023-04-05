@@ -1,0 +1,20 @@
+countries = {
+    "Bangladesh": "Sheikh Hasina",
+    "India": "Narendra Modi",
+    "Pakistan": "Arif Alvi",
+    "United Kingdom": "Charles III",
+    "United States": "Joe Biden"
+}
+
+search_term = input("Enter a country name: ")
+
+matching_king = None
+for country, king in countries.items():
+    if country.lower() == search_term.lower():
+        matching_king = king
+        break
+
+if matching_king:
+    print(f"The King of {search_term} is {matching_king}.")
+else:
+    print(f"No King found for {search_term}.")
