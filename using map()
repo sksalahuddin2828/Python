@@ -1,0 +1,8 @@
+# You can changed it to integer or a string values - like (n: str)
+values = [1, 2, 3, 4]
+
+def x_i(n: int):
+    return n * 'X'
+
+mapped = map(x_i, values)
+print(list(mapped))
