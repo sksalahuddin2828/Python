@@ -7,7 +7,7 @@ t.pensize(2)
 h = 0
 
 for i in range(200):
-    color = colorsys.hsv_to_rgb(h,0,8,1)
+    color = colorsys.hsv_to_rgb(h, 1, 1)
     h += 0.006
     t.pencolor(color)
     t.left(179)
