@@ -1,8 +1,8 @@
 # We used the dict.fromkeys() method to set all dictionary values to zero.
 # The dict.fromkeys method takes an iterable and a value and creates a new dictionary with keys from the iterable and values set to the provided value.
 
-print(dict.fromkeys({'a': 'bobby', 'b': 'hadz', 'c': 'com'}))
+print(dict.fromkeys({'a': 'Isa', 'b': 'Nisa', 'c': 'Elma'}))
 # Answer: {'a': None, 'b': None, 'c': None}
 
-print(dict.fromkeys({'a': 'bobby', 'b': 'hadz', 'c': 'com'}, 0))
+print(dict.fromkeys({'a': 'Isa', 'b': 'Nisa', 'c': 'Elma'}, 0))
 # Answer: {'a': 0, 'b': 0, 'c': 0}
