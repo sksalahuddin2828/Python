@@ -1,3 +1,4 @@
+# Horizontal first 3 tuple - Vertical second 3 tuple - Diagonal third 2 tuple
 def find_blocking_spot(position1, position2):
     board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
     marks = ['X', 'O']
