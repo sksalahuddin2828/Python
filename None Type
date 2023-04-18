@@ -1,0 +1,12 @@
+items: dict = {
+    "ID": 1,    
+    "Name": "Sk. Salahuddin",
+    "Roll": 13,
+    "Phone": 8801767902828,
+    "Email": "sksalahuddin2828@gmail.com" 
+}
+print(items["Name"])
+print(items.get("Address", None))
+
+# Address not in here ha ha...
+# Return None = NoneType
