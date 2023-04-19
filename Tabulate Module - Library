@@ -1,0 +1,10 @@
+from tabulate import tabulate
+employee = [
+  {"ID": 1, "Name": "Sk. Salahuddin", "Age": 35, "Country": "Finland", "Phone": 8801767902828},
+  {"ID": 2, "Name": "Ilma Rehman", "Age": 3, "Country": "Australia", "Phone": 6564332114},
+  {"ID": 3, "Name": "Aminul Islam", "Age": 50, "Country": "United Kingdom", "Phone": 4474251783},
+  {"ID": 4, "Name": "Nisa Zannat", "Age": 45, "Country": "Australia", "Phone": 6541674267}
+]
+result = tabulate(employee, headers="keys", tablefmt="fancy_grid")
+print(result)
+#print(tabulate(employee, headers="keys", tablefmt="pretty"))
