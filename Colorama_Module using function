@@ -1,3 +1,4 @@
+# Change your own console colors using colorama
 from colorama import Fore, Back, Style
 
 def color(text: str, fg, bg=None) -> str:
