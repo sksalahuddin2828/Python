@@ -8,5 +8,5 @@ items: dict = {
 print(items["Name"])
 print(items.get("Address", None))
 
-# Address not in here it's return KeyError in interpreter ha ha...
+# Address not in here it's return KeyError in your interpreter ha ha...
 # Using None = NoneType
