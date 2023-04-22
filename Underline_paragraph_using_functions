@@ -1,0 +1,7 @@
+# Using Unicode character this "\u0332" print underline
+
+def under_line(text):
+    print("\u0332".join(text))
+    print("\u0332".join("Python Programming"))
+    
+under_line("Sk. Salahuddin")
