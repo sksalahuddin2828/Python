@@ -12,7 +12,10 @@
 
 | **Tools & Platform**                            | ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
 
-| **Machine Learning / Deep Learning frameworks** | ![PyQt5](http://img.shields.io/badge/-PyTorch-eee?style=flat-square&logo=pytorch&logoColor=EE4C2C) ![TensorFlow](http://img.shields.io/badge/-TensorFlow-eee?style=flat-square&logo=tensorflow&logoColor=FF6F00) |
+| **Machine Learning / Deep Learning frameworks** | ![TensorFlow](http://img.shields.io/badge/-TensorFlow-eee?style=flat-square&logo=tensorflow&logoColor=FF6F00) |
+
+| .                                                                                                                                       | .                                                                                                                         |
+|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 
 <h3>Introduction</h3>
 <p>Welcome to Pythonly, a repository dedicated to all things Pythonic! Here, we explore the depths of Python programming and its various applications. From beginner-friendly tutorials to advanced techniques, we've got you covered.
