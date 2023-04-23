@@ -1,4 +1,8 @@
-# We used the dict.fromkeys() method to set all dictionary values to None = zero '0' = 10 = Tuple
+# We used the dict.fromkeys() method to set all dictionary values to____
+# 1. None = NoneType
+# 2. Zero = 0
+# 3. 10 = integer
+# 4. Tuple
 # The dict.fromkeys method takes an iterable and a value and creates a new dictionary with keys from the iterable and values set to the provided value.
 
 print(dict.fromkeys({'a': 'Isa', 'b': 'Nisa', 'c': 'Elma'}))
