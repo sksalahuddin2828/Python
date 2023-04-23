@@ -6,33 +6,33 @@
 This repository is designed for Python enthusiasts, students, and developers who want to enhance their skills and knowledge of the language. With a focus on practical examples and real-world scenarios, you'll gain a deeper understanding of Python and its capabilities.</p>
 
 <h3>Table of Contents</h3>
-<li>Getting Started</li>
-Installation
-Hello World!
-Variables and Data Types
-<li>Control Structures</li>
-Conditional Statements
-Loops
-<li>Functions and Modules</li>
-Built-in Functions
-Creating Functions
-Importing Modules
-<li>Object-Oriented Programming</li>
-Classes and Objects
-Inheritance and Polymorphism
-<li>File Input and Output</li>
-Reading Files
-Writing Files
-<li>Advanced Topics</li>
-Regular Expressions
-Multithreading
-Networking
-<li>Contributing</li>
-Guidelines
-Code of Conduct
-<li>Credits</li>
-Authors
-Acknowledgements
+<ul>Getting Started</ul>
+<li>Installation</li>
+<li>Hello World!</li>
+<li>Variables and Data Types</li>
+<ul>Control Structures</ul>
+<li>Conditional Statements</li>
+<li>Loops</li>
+<ul>Functions and Modules</ul>
+<li>Built-in Functions</li>
+<li>Creating Functions</li>
+<li>Importing Modules</li>
+<ul>Object-Oriented Programming</ul>
+<li>Classes and Objects</li>
+<li>Inheritance and Polymorphism</li>
+<ul>File Input and Output</ul>
+<li>Reading Files</li>
+<li>Writing Files</li>
+<ul>Advanced Topics</ul>
+<li>Regular Expressions</li>
+<li>Multithreading</li>
+<li>Networking</li>
+<ul>Contributing</ul>
+<li>Guidelines</li>
+<li>Code of Conduct</li>
+<ul>Credits</ul>
+<li>Authors</li>
+<li>Acknowledgements</li>
 
 <!--   my-skils -->
 
