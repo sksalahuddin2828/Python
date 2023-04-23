@@ -5,7 +5,7 @@
 
 to_list = ["a", "c", 1, 2, 3]
 new_items = "b"
-to_list[1:1]  = new_items
+to_list[1:1] = new_items
 
 # to_list.insert(1, new_items)
 
