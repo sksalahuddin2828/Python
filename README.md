@@ -36,6 +36,8 @@ This repository is designed for Python enthusiasts, students, and developers who
 | Authors | |
 | Acknowledgements | |
 
+<h3>License</h3>
+<p>Pythonly is released under the <b><u>MIT License.</u></b></p>
 
 <!--   my-skils -->
 
