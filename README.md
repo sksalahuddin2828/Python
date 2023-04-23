@@ -13,11 +13,11 @@
 
 <!--   GitHub stats graph -->
 ### 📈 GitHub Activity Graph:
-[![BEPb's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=BEPb&theme=github-compact)](https://github.com/sksalahuddin2828/github-readme-activity-graph)
+[![sksalahuddin2828's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=sksalahuddin2828&theme=github-compact)](https://github.com/sksalahuddin2828/github-readme-activity-graph)
 
 | .                                                                                                                                       | .                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| ![BEPb's github stats](https://github-readme-stats.vercel.app/api?username=sksalahuddin2828&show_icons=true&theme=radical&include_all_commits=true) | ![Quiec's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=sksalahuddin2828&theme=radical&layout=compact) |
+| ![sksalahuddin2828's github stats](https://github-readme-stats.vercel.app/api?username=sksalahuddin2828&show_icons=true&theme=radical&include_all_commits=true) | ![Quiec's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=sksalahuddin2828&theme=radical&layout=compact) |
 
 
 <h3>Introduction</h3>
