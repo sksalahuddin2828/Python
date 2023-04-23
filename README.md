@@ -42,8 +42,6 @@ This repository is designed for Python enthusiasts, students, and developers who
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=sksalahuddin2828"></img>
 
-![](https://github.com/sksalahuddin2828/sksalahuddin2828/blob/output/github-contribution-grid-snake.svg)
-
 | Table of Contents | |
 | --- | --- |
 | **Getting Started** | |
