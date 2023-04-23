@@ -72,5 +72,7 @@ This repository is designed for Python enthusiasts, students, and developers who
 | Authors | |
 | Acknowledgements | |
 
+![](https://visitor-badge.glitch.me/badge?page_id=sksalahuddin2828.sksalahuddin2828)
+
 <h3>License</h3>
 <p>Pythonly is released under the <b><u>MIT License.</u></b></p>
