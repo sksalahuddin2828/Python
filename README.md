@@ -13,7 +13,7 @@ This repository is designed for Python enthusiasts, students, and developers who
     <a href="https://github.com/sksalahuddin2828/sksalahuddin2828/graphs/contributors"><img src="https://img.shields.io/github/contributors/sksalahuddin2828/sksalahuddin2828?color=blue"></a>
     <a href="https://github.com/sksalahuddin2828/sksalahuddin2828/stargazers"><img src="https://img.shields.io/github/stars/sksalahuddin2828/sksalahuddin2828.svg?logo=github"></a>
     <a href="https://github.com/sksalahuddin2828/sksalahuddin2828/network/members"><img src="https://img.shields.io/github/forks/sksalahuddin2828/sksalahuddin2828.svg?color=blue&logo=github"></a>
-    ![](https://visitor-badge.glitch.me/badge?page_id=sksalahuddin2828.sksalahuddin2828)   
+    <img src="https://visitor-badge.glitch.me/badge?page_id=sksalahuddin2828.sksalahuddin2828" alt="visitors"/> 
 </p>
 
 <!--   my-header-img -->
