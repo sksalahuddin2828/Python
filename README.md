@@ -1,0 +1,1 @@
+| **Language / IDE**                              | ![Python Badge](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white) ![Pycharm Badge](https://img.shields.io/badge/-Pycharm-3776AB?style=flat&logo=Pycharm&logoColor=white) ![Python Badge](https://img.shields.io/badge/-Django-3776AB?style=flat&logo=Django&logoColor=white)                   
