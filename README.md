@@ -42,6 +42,8 @@ This repository is designed for Python enthusiasts, students, and developers who
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=sksalahuddin2828"></img>
 
+<a href="https://skyline.github.com/sksalahuddin2828/2023"><img src="./assets/2022.gif" alt="" width="auto" height="auto" /></a>
+
 | Table of Contents | |
 | --- | --- |
 | **Getting Started** | |
