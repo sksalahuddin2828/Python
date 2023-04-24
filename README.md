@@ -38,7 +38,7 @@ This repository is designed for Python enthusiasts, students, and developers who
 
 |     Sk. Salahuddin GitHub Stats                                                                                                                   | Python                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| ![sksalahuddin2828's github stats](https://https://github-readme-stats.vercel.app/api?username=sksalahuddin2828&show_icons=true&theme=radical&include_all_commits=true) | ![Quiec's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=sksalahuddin2828&theme=radical&layout=compact) |
+| ![sksalahuddin2828's github stats](https://github-readme-stats.vercel.app/api?username=sksalahuddin2828&show_icons=true&theme=radical&include_all_commits=true) | ![Quiec's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=sksalahuddin2828&theme=radical&layout=compact) |
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=sksalahuddin2828"></img>
 
