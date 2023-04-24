@@ -36,7 +36,7 @@ This repository is designed for Python enthusiasts, students, and developers who
 ### 📈 GitHub Activity Graph:
 [![sksalahuddin2828's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=sksalahuddin2828&theme=github-compact)](https://github.com/sksalahuddin2828/github-readme-activity-graph)
 
-| .                                                                                                                                       | .                                                                                                                         |
+|     Sk. Salahuddin GitHub Stats                                                                                                                         | .                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | ![sksalahuddin2828's github stats](https://github-readme-stats.vercel.app/api?username=sksalahuddin2828&show_icons=true&theme=radical&include_all_commits=true) | ![Quiec's github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=sksalahuddin2828&theme=radical&layout=compact) |
 
