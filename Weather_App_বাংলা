@@ -39,7 +39,7 @@ class WeatherApp(QWidget):
         self.layout.addLayout(self.weather_layout)
     def update_weather(self):
         city = self.input_edit.text()
-        url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=99e68c086c34059f58d3349bd4fb694c&units=metric'
+        url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={key}&units=metric'
         response = requests.get(url)
         data = response.json()
         if data.get('main') is None:
