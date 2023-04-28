@@ -23,6 +23,16 @@ print(list)
 
 
 # Nested lists in Python list comprehension
+# From user input (User give an input number like 1st number: 1, and 2nd number: 6 then it's print from 1 to 5 multiplication table)
+
+num1 = int(input("Enter 1st number: "))
+num2 = int(input("Enter 2nd number: "))
+for i in range(num1,num2):
+    for j in range(1,11):
+        print(f"{i} * {j} = {i*j}")
+
+
+# Nested lists in Python list comprehension
 
 for i in range(1,6):
     for j in range(1,11):
