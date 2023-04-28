@@ -1,3 +1,6 @@
+# If you don't understand this total code please watch this --
+# List_initialization_Faster_way II
+
 # Here are 3 three different way to initialize Python list for specific values which one is faster way
 
 # Option No. 1 -- Total Time = 0.7 mili seconds
