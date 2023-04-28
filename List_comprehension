@@ -12,3 +12,11 @@ print(greater_10)
 
 less_10 = [x for x in data if x < 10]
 print(less_10)
+
+my = ["This","is","Python","tutorial","from","SK. SALAHUDDIN"]
+my_list = [i[0] for i in my]
+print(my_list)
+
+a = [3, 4, 5]
+multiplied = [i*2 for i in a]
+print(multiplied)
