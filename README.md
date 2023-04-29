@@ -77,3 +77,7 @@ This repository is designed for Python enthusiasts, students, and developers who
 
 <h3>License</h3>
 <p>Pythonly is released under the <b><u>MIT License.</u></b></p>
+
+## Visitor Count
+
+![Visitor Count](https://profile-counter.glitch.me/{sksalahuddin2828}/count.svg)
