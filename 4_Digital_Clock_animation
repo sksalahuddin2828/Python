@@ -47,7 +47,7 @@ class DigitalClock(QWidget):
         self.temperature_animation.setEndValue(QRect(0, self.time_label.height() + self.date_label.height(), self.width(), self.temperature_label.height()))
         self.temperature_animation.start()
     def get_temperature(self):
-        api_key = "99e68c086c34059f58d3349bd4fb694c" 
+        api_key = "API KEY" 
         city = "Khulna"
         url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={key}&units={self.units}"
         response = requests.get(url)
