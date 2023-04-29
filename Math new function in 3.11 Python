@@ -1,0 +1,35 @@
+# In Python 3.11 have 2 new math function
+
+import math
+
+x = 4
+
+print(math.exp2(x))
+print(math.pow(2, x))
+print(2.0**x)
+
+# Answer all is: 16.0
+
+x = 27
+
+print(math.cbrt(x))  # CubeRoot
+print(x ** (1. / 3))
+
+# Answer all is: 3.0
+
+# but be careful if negative number
+
+x = -27
+
+print(math.cbrt(x))  # CubeRoot
+print(-(-x) ** (1. / 3))
+
+# Answer all is: -3.0
+
+# Where is the difference print this code first
+
+x = -27
+
+print(math.cbrt(x))  # CubeRoot
+print(x ** (1. / 3))
+
