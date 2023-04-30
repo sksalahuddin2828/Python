@@ -47,8 +47,7 @@ This repository is designed for Python enthusiasts, students, and developers who
 
 | Table of Contents | |
 | --- | --- |
-| **Getting Started** | ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github) |
+| **Getting Started** | ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github) |
 | Installation | |
 | Hello World! | |
 | Variables and Data Types | |
