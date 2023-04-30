@@ -21,7 +21,7 @@ def start():
         check_for_alert()
         time.sleep(interval.get() * 60)
 root = tk.Tk()
-root.title("প্রাকৃতিক দুর্যোগ সতর্কতা ব্যবস্থা")
+root.title("প্রাকৃতিক দুর্যোগ সতর্কতা বার্তা")
 root.geometry('700x280')
 phone_label = tk.Label(root, text="Phone Number:", font=("Arial Bold", 12))
 phone_label.grid(row=0, column=0, pady=(20,0))
