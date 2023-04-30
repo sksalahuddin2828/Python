@@ -1,6 +1,7 @@
 # More design will come very soon -- I already tring to learn form Stanford University CA United States
 # Natural_Disaster_Alert_System App -- This Desktop Application will be in many language, so any country user can use it for his/her own language
 # Also this app web version release will in May 2024
+# Then we can send SMS in evry person Cell/Mobile Phone within a micro seconds more than 700 million peoples together
 
 import tkinter as tk
 import time
