@@ -10,6 +10,13 @@ This repository is designed for Python enthusiasts, students, and developers who
     <img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" width="500">
 </div><br>
 
+Nearly every scientist working in Python draws on the power of NumPy.
+
+NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant.
+
+Check out our [home page](https://numpy.org/) for more information.
+
+
 ![Matplotlib logotype](https://matplotlib.org/_static/logo2.svg)
 
 Matplotlib is a comprehensive library for creating static, animated, and
