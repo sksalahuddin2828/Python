@@ -7,7 +7,7 @@
 This repository is designed for Python enthusiasts, students, and developers who want to enhance their skills and knowledge of the language. With a focus on practical examples and real-world scenarios, you'll gain a deeper understanding of Python and its capabilities.</p>
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" width="300">
+    <img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" width="500">
 </div><br>
 
 ![](assets/Bottom_up.svg)
