@@ -14,7 +14,7 @@ Nearly every scientist working in Python draws on the power of NumPy.
 
 NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant.
 
-Check out our [home page](https://numpy.org/) for more information.
+Check out our NumPy [home page](https://numpy.org/) for more information.
 
 
 ![Matplotlib logotype](https://matplotlib.org/_static/logo2.svg)
@@ -22,7 +22,7 @@ Check out our [home page](https://numpy.org/) for more information.
 Matplotlib is a comprehensive library for creating static, animated, and
 interactive visualizations in Python.
 
-Check out our [home page](https://matplotlib.org/) for more information.
+Check out our Matplotlib [home page](https://matplotlib.org/) for more information.
 
 ![image](https://matplotlib.org/_static/readme_preview.png)
 
