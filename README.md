@@ -10,6 +10,15 @@ This repository is designed for Python enthusiasts, students, and developers who
     <img src="https://raw.githubusercontent.com/numpy/numpy/main/branding/logo/primary/numpylogo.svg" width="500">
 </div><br>
 
+![Matplotlib logotype](https://matplotlib.org/_static/logo2.svg)
+
+Matplotlib is a comprehensive library for creating static, animated, and
+interactive visualizations in Python.
+
+Check out our [home page](https://matplotlib.org/) for more information.
+
+![image](https://matplotlib.org/_static/readme_preview.png)
+
 ![](assets/Bottom_up.svg)
 
 <!--   my-icons -->
