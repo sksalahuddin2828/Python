@@ -5,6 +5,11 @@
 <p>Welcome to Pythonly, a repository dedicated to all things Pythonic! Here, we explore the depths of Python programming and its various applications. From beginner-friendly tutorials to advanced techniques, we've got you covered.
 
 This repository is designed for Python enthusiasts, students, and developers who want to enhance their skills and knowledge of the language. With a focus on practical examples and real-world scenarios, you'll gain a deeper understanding of Python and its capabilities.</p>
+
+<div align="center">
+    <img src="https://rawgithubusercontent.com/numpy/numpymain/branding/logo/primary/numpylogo.svg"><br>
+</div>
+
 ![](assets/Bottom_up.svg)
 
 <!--   my-icons -->
