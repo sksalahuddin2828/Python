@@ -11,7 +11,7 @@ def check_for_alert():
     auth_token = 'your_twilio_auth_token'  
     client = Client(account_sid, auth_token)
     message = client.messages.create(
-        body='Alert: ভাই! বৃষ্টি হবে পালান',  
+        body='সতর্কতাঃ ভাই! বৃষ্টি হবে পালান',  
         from_='(+1)_your_twilio_phone_number',
         to=phone_entry.get()
     )
