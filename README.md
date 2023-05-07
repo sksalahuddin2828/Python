@@ -66,38 +66,8 @@ Check out our [Matplotlib home page](https://matplotlib.org/) for more informati
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=sksalahuddin2828"></img>
 
-| Table of Contents | |
-| --- | --- |
-| **Getting Started** | |
-| Installation | |
-| Hello World! | |
-| Variables and Data Types | |
-| **Control Structures** | |
-| Conditional Statements | |
-| Loops | |
-| **Functions and Modules** | |
-| Built-in Functions | |
-| Creating Functions | |
-| Importing Modules | |
-| **Object-Oriented Programming** | |
-| Classes and Objects | |
-| Inheritance and Polymorphism | |
-| **File Input and Output** | |
-| Reading Files | |
-| Writing Files | |
-| **Advanced Topics** | |
-| Regular Expressions | |
-| Multithreading | |
-| Networking | |
-| **Contributing** | |
-| Guidelines | |
-| Code of Conduct | |
-| **Credits** | |
-| Authors | |
-| Acknowledgements | |
-
 <h3>License</h3>
-<p>Pythonly is released under the <b><u>MIT License.</u></b></p>
+<p>Python is released under the <b><u>MIT License.</u></b></p>
 
 ## Visitor Count
 
