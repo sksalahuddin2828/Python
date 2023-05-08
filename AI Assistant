@@ -1,0 +1,35 @@
+import pyttsx3
+
+import webbrowser
+
+neuron=pyttsx3.init("sapi5")
+
+while True:
+
+    # input
+
+    com=input("Enter Your Text: ").lower
+
+    # action
+
+    if "youtube" in com:
+
+        neuron.say("opening youtube")
+
+        neuron.runAndWait()
+
+        webbrowser.open("https://www.youtube.com/")
+
+    if "search" in com:
+
+        neuron.say("search for what ")
+
+        neuron.runAndWait()
+
+        search=input("").lower
+
+        neuron.say(f"ok, searching for {search}")
+
+        neuron.runAndWait()
+
+        webbrowser.open(f"https://www.google.com/search?q={search}")
