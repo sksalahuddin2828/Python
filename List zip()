@@ -1,0 +1,13 @@
+# Numbers, Letters, Symbols are zip together
+
+# pip install pyflakes
+
+a = [1, 2, 3]
+
+b = [a, b, c]
+
+c = [Σ, β, ∆]
+
+for number, letter, symbol in zip(a, b, c):
+
+  print(number, letter, symbol, sep=" _ ")
