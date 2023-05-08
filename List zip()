@@ -4,10 +4,18 @@
 
 a = [1, 2, 3]
 
-b = [a, b, c]
+b = ['a', 'b', 'c']
 
-c = [Σ, β, ∆]
+c = ['Σ', 'β', '∆']
 
 for number, letter, symbol in zip(a, b, c):
 
   print(number, letter, symbol, sep=" _ ")
+
+
+
+
+
+
+
+
