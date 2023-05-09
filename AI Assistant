@@ -29,3 +29,29 @@ while True:
         neuron.say(f"OK, I'm searching for {search}")
         neuron.runAndWait()
         webbrowser.open(f"https://www.google.com/search?q={search}")
+        
+#--------------------------------------------------------------------------------------------
+
+import pyttsx3
+import webbrowser
+
+search = pyttsx3.init("sapi5")
+ 
+while True:
+    user_input = input("Enter your text: ").lower()
+
+    if "youtube" in user_input:
+        search.say("Opening YouTube, just wait a while")
+        search.runAndWait()
+        webbrowser.open("https://www.youtube.com/")
+
+    if "search" in user_input:
+        search.say("What do you want to search from Google?")
+        search.runAndWait()
+        search_items = input("Give your search keyword: ").lower()
+        search.say("Opening your search itmes, just wait a while")
+        search.runAndWait()
+        webbrowser.open(f"https://www.google.com/search?q={search_items}")
+
+    else:
+        print("Opps! Try again")
