@@ -1,7 +1,15 @@
+"""
+Your peripheral nervous system (PNS) is one of two main parts of your body’s nervous system.
+Your PNS feeds information into your brain from most of your senses. It carries signals that allow you to move your muscles.
+Your PNS also delivers signals that your brain uses to control vital, unconscious processes like your heartbeat and breathing.
+
+"""
+
 import pyttsx3
 import webbrowser
 
-# sapi5 is a peripheral nervous system in Microsoft Windows
+# sapi5 is a Peripheral Nervous System (PNS) in Microsoft Windows. It's like a brain
+# It works for Peripheral devices like keyboard, mouse, speaker etc etc.
 neuron = pyttsx3.init("sapi5")
 
 while True:
