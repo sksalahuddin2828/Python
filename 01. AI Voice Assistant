@@ -16,7 +16,6 @@ import json
 import requests
 
 print('Sk. Salahuddin - Morning 01 Batch')
-
 engine=pyttsx3.init('sapi5')
 
 voices = engine.getProperty('voices')
@@ -70,6 +69,10 @@ if __name__=='__main__':
             results = wikipedia.summary(statement, sentences=3)
             speak("according to the wiki")
             speak(results)
+
+        elif 'time' in statement:
+            clock_time = datetime.datetime.now().strftime('%I:%M %p')
+            print(f"Your local time is = {clock_time} is Bangladesh Time")
         
         elif 'open youtube' in statement:
             webbrowser.open_new_tab("https://youtube.com")
