@@ -61,7 +61,7 @@ while True:
     # Get from input by user
     user_input = input("Enter your text: ").lower()
     
-    # If you want to break this While loop you can type this three keywords : good bye / ok bye / turn off 
+    # If you want to shut down it use this three 3 keywords : good bye / ok bye / turn off 
     if "good bye" in user_input or "ok bye" in user_input or "turn off" in user_input:
         speak('Take care, and see you later, Bye!')
         break
