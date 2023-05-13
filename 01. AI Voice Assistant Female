@@ -62,7 +62,7 @@ if __name__=='__main__':
             continue
 
         if "good bye" in statement or "ok bye" in statement or "turn off" in statement:
-            speak ('See you later!')
+            speak ('See you later and take care, bye!')
             break
 
         if 'wikipedia' in statement:
