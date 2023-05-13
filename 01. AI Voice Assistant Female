@@ -51,8 +51,8 @@ def takeCommand():
             return "none"
         return statement.lower()
 
-speak("Opening, Please wait for a few seconds")
 esshan()
+speak("Opening, Please wait for a few seconds")
 
 if __name__=='__main__':
     while True:
