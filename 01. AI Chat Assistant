@@ -66,7 +66,7 @@ while True:
         speak('Take care, and see you later, Bye!')
         break
 
-    # AI talks it everytime when user gives input
+    # AI talks or say it everytime when user gives input
     speak("Please wait for a few seconds, I'm opening now")
 
     # Check if the user wants the weather report
