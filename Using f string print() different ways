@@ -1,0 +1,13 @@
+var = 'USA'
+
+print(f'{var}')
+print(f'{var:#<20}')
+print(f'{var:_>20}')
+print(f'{var:.^20}')
+
+# Answer: 
+
+# USA
+# USA#################
+# _________________USA
+# ........USA.........
