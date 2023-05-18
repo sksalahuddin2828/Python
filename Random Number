@@ -38,3 +38,9 @@ print(num)
 
 import random
 print(random.randrange(1, 20))
+
+
+import random
+l = [10, 20, 30, 40, 50]
+lc = random.choice(l)
+print(lc)
