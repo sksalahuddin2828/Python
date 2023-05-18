@@ -28,3 +28,13 @@ random.shuffle(numList)
 print(numList)
 # If you choose only one values from this numList variable you can use random.choice(variable name)
 print(random.choice(numList))
+
+#----------------------------------------------------------------------------------------------------
+
+import random
+num = random.randrange(1, 20)
+print(num)
+
+
+import random
+print(random.randrange(1, 20))
