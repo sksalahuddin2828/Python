@@ -26,8 +26,5 @@ print(num)
 numList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 random.shuffle(numList)
 print(numList)
-
-# If you choose only one values from this num_list variable
-num_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-random.choice(num_list)
-print(num_list)
+# If you choose only one values from this numList variable you can use random.choice(variable name)
+print(random.choice(numList))
