@@ -38,8 +38,8 @@ credits = course1+course2+course3+course4+course5+course6+course7+course8+course
 
 print("Total Credits: ", credits)
 
-GP = ((course1*course1_cg) + (course2*course2_cg) + (course3*course3_cg) + (course4*course4_cg) + (course5*course5_cg) + (course6*course6_cg) + (course7*course7_cg) + (course8*course8_cg) + (course9*course9_cg))
+total_GP = ((course1*course1_cg) + (course2*course2_cg) + (course3*course3_cg) + (course4*course4_cg) + (course5*course5_cg) + (course6*course6_cg) + (course7*course7_cg) + (course8*course8_cg) + (course9*course9_cg))
 
-GPA = GP/credits
+GPA = total_GP/credits
 
 print("Your GPA", round(GPA, 2))
