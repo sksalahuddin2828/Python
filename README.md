@@ -59,7 +59,7 @@ Check out our [Matplotlib home page](https://matplotlib.org/) for more informati
 
 <!--   GitHub stats graph -->
 ### 📈 GitHub Activity Graph:
-[![sksalahuddin2828's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=sksalahuddin2828&theme=github-compact)](https://github.com/sksalahuddin2828/github-readme-activity-graph)
+[![Sk. Salahuddin's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=sksalahuddin2828&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true)](https://github.com/sksalahuddin2828/github-readme-activity-graph)
 
 |     Sk. Salahuddin GitHub Stats                                                                                                                   | Python                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
