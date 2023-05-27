@@ -1,0 +1,18 @@
+a=[]
+b=[]
+c=[]
+for i in range (15,150):
+    if i%3==0:
+      a.append(i)
+    if i%5==0:
+      b.append(i)
+    if i%8==0:
+      c.append(i)
+print("a are working:",a)   
+print("b are working:",b) 
+print("c are working:",c) 
+x=[]
+for j in a:
+    if j in b and j in c:
+        x.append(j)
+print("all are working:",x)  
