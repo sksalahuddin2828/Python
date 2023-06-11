@@ -49,7 +49,7 @@ speak("Welcome, Sheikh Salahuddin")
 
 def get_weather(city):
     # API URL with your API key
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=99e68c086c34059f58d3349bd4fb694c&units=metric'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=API_KEY&units=metric'
 
     # Send an HTTP GET request to the API and get the response
     response = requests.get(url)
