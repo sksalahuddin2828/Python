@@ -9,7 +9,7 @@ if sys.platform == 'win32':
 os.environ['TCL_LIBRARY'] = r"C:\Program Files\Python311\tcl\tcl8.6"
 os.environ['TK_LIBRARY'] = r"C:\Program Files\Python311\tcl\tk8.6"
 
-executables = [cx_Freeze.Executable("____", base=base, icon="icon.ico")]
+executables = [cx_Freeze.Executable("", base=base, icon="icon.ico")]
 
 
 cx_Freeze.setup(
