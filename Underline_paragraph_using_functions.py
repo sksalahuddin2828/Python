@@ -9,8 +9,8 @@ under_line("Sk. Salahuddin")
 # ------------------------------------------------------
 
 def line():
-    for i in range(1,15):
-        print("_",end="")            # You can use underscore _ , Hash # , etc = print("#",end="")
+    for i in range(1, 15):
+        print("_", end="")            # You can use underscore _ , Hash # , etc = print("#",end="")
     print()
 print("Sk. Salahuddin")
 line()
