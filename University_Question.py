@@ -1,14 +1,14 @@
 # BUET University Question - 5 Marks
 def change(p,q=30):
-    p=p+q
-    q=p-q
+    p = p + q
+    q = p - q
     print(p,'#',q)
     return p
-a=150
-b=100
-a=change(a,b)
+a = 150
+b = 100
+a = change(a, b)
 print(a,'#',b)
-b=change(b)
+b = change(b)
 
 # Answer:-->
 # 250 # 150
