@@ -50,7 +50,6 @@ class CelestialBody:
         # Draw orbit circle
         pygame.draw.circle(surface, self.color, (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2), self.orbit_radius, 1)
 
-
 def main():
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -79,13 +78,9 @@ def main():
         for planet in planets:
             planet.update(dt)
             planet.draw(screen)
-
         sun.draw(screen)
-
         pygame.display.flip()
-
     pygame.quit()
-
 
 if __name__ == '__main__':
     main()
