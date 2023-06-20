@@ -1,3 +1,7 @@
+"""
+Created by Sk. Salahuddin
+This is copyright project
+"""
 import math
 import pygame
 from pygame.locals import *
