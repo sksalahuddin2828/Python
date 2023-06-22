@@ -1,6 +1,6 @@
 """
 This file defines the TK GUI for editing Karel worlds. 
-
+I stored this file for my education purpose only.
 Original Author: Nicholas Bowman
 Credits: Kylie Jue 
 License: MIT
@@ -9,7 +9,6 @@ Email: nbowman@stanford.edu
 Date of Creation: 10/1/2019
 Last Modified: 3/31/2020
 """
-
 import tkinter as tk
 from karel.KarelWorld import KarelWorld
 from karel.Karel import Karel
@@ -44,9 +43,6 @@ class WorldBuilderApplication(tk.Frame):
 		self.create_canvas()
 		self.create_buttons()
 
-
-
-
 	def set_dock_icon(self):
 		# make Karel dock icon image
 		img = tk.Image("photo", file="./karel/icon.png")
@@ -61,9 +57,7 @@ class WorldBuilderApplication(tk.Frame):
 
 
 	def create_new_world(self, init=False, default=False):
-		num_avenues = simpledialog.askinteger("New World Size", "How many avenues should the new world have?",
-											  parent=self.master, 
-											  minvalue=MIN_DIMENSIONS, maxvalue=MAX_DIMENSIONS)
+		num_avenues = simpledialog.askinteger("New World Size", "How many avenues should the new world have?", parent=self.master, minvalue=MIN_DIMENSIONS, maxvalue=MAX_DIMENSIONS)
 
 		if not num_avenues:
 			if default:
@@ -72,9 +66,8 @@ class WorldBuilderApplication(tk.Frame):
 				# In this case, we can just cancel execution and return to existing world 
 				return
 
-		num_streets = simpledialog.askinteger("New World Size", "How many streets should the new world have?",
-										 	  parent=self.master, 
-										 	  minvalue=MIN_DIMENSIONS, maxvalue=MAX_DIMENSIONS)
+		num_streets = simpledialog.askinteger("New World Size", "How many streets should the new world have?", parent=self.master, minvalue=MIN_DIMENSIONS, maxvalue=MAX_DIMENSIONS)
+		
 		if not num_streets:
 			if default:  
 				num_streets = DEFAULT_SIZE
@@ -125,13 +118,7 @@ class WorldBuilderApplication(tk.Frame):
 		self.canvas.bind("<Button-1>", self.handle_mouse_event)
 		self.canvas.bind("<B1-Motion>", self.handle_mouse_event)
 
-
-	def create_buttons(self):
-		"""
-		This method creates the three buttons that appear on the left
-		side of the screen. These buttons control the start of Karel 
-		execution, resetting Karel's state, and loading new worlds.
-		"""	
+	def create_buttons(self):	
 		self.program_control_button = tk.Button(self, highlightthickness=0, highlightbackground='white')
 		self.program_control_button["text"] = "New World"
 		self.program_control_button["command"] = self.create_new_world
@@ -196,7 +183,6 @@ class WorldBuilderApplication(tk.Frame):
 		self.color_var = tk.StringVar()
 		self.color_var.set(DEFAULT_COLOR) 
 
-
 		tk.Radiobutton(color_selection_frame, text="Paint Corner", variable=self.action_var,value="paint_corner",bg=LIGHT_GREY).pack(side='left')
 		self.color_dropdown = tk.OptionMenu(color_selection_frame, self.color_var, *COLOR_OPTIONS)
 		self.color_dropdown["bg"] = LIGHT_GREY
@@ -238,7 +224,6 @@ class WorldBuilderApplication(tk.Frame):
 					self.canvas.redraw_walls(update=False)
 					self.canvas.redraw_karel()
 
-
 		event_type = event.type
 		# only handle click events that happen in the world
 		if not self.canvas.click_in_world(event.x, event.y): return
@@ -275,7 +260,6 @@ class WorldBuilderApplication(tk.Frame):
 		if not filename.endswith(".w"): filename = filename + ".w"
 		self.world.save_to_file(filename, self.karel)
 		
-
 if __name__ == "__main__":
 	root = tk.Tk()
 	world_builder = WorldBuilderApplication(master=root)
