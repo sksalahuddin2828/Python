@@ -104,4 +104,18 @@ print(_txt[possition:])
 
 #-------------------------------------
 
-# 8: 
+# 8: Formate()
+
+_txt: str = "Potka {subject} is doing: {action}."
+print(_txt.format(subject="cat", action="meow"))
+
+# Answer: Potka cat is doing: meow.
+
+# Alternative way:
+_txt: str = "Potka {} is doing: {}."
+print(_txt.format("cat", "meow"))
+
+# Answer: Potka cat is doing: meow.
+
+#-------------------------------------
+
