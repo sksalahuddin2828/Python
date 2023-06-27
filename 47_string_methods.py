@@ -307,5 +307,22 @@ print(_txt.istitle())
 
 #-------------------------------------
 
-# 21:
+# 21: Join()
+
+txt: str = '-'
+
+print(txt.join(['text1', 'text2', 'text3']))
+
+# Answer: text1-text2-text3
+
+
+# Alternative way:
+
+print('-'.join(['text1', 'text2', 'text3']))
+
+# Answer: text1-text2-text3
+
+#-------------------------------------
+
+# 22:
 
