@@ -142,4 +142,17 @@ print(_txt[possition:])
 
 #-------------------------------------
 
-# 11: 
+# 11: IsAlNum()
+
+_txt: str = "helloRaya123"
+txt_: str = "helloRaya123!"   # Because here are exclamation mark symbol. ( False )
+
+print(_txt.isalnum())
+print(txt_.isalnum())
+
+# Answer: True
+# Answer: False
+
+#-------------------------------------
+
+# 12: 
