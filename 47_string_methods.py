@@ -41,3 +41,14 @@ print(_txt.center(20, "_"))
 
 #-------------------------------------
 
+# 4: Count()
+
+_txt: str = "abc_abc_abc_abc"
+
+print(_txt.count("bc"))
+
+# Answer: 4
+
+#-------------------------------------
+
+# 5: Count()
