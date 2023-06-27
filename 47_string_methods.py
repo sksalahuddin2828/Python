@@ -91,4 +91,17 @@ print(_txt.expandtabs(20))
 
 #-------------------------------------
 
-# 7: 
+# 7: Find()
+
+_txt: str = "Remember to Follow in GitHub!"
+
+possition: int = _txt.find("GitHub")
+print(possition)
+print(_txt[possition:])
+
+# Answer: 22          # It's locate at index 22
+# Answer: GitHub!
+
+#-------------------------------------
+
+# 8: 
