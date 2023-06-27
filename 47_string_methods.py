@@ -119,3 +119,13 @@ print(_txt.format("cat", "meow"))
 
 #-------------------------------------
 
+# 9: Format_Map()
+
+points: dict = {"First": 10, "Second": -5}
+_txt: str = "Points: ({First}, {Second})"
+print(_txt.format_map(points))
+
+# Answer: Points: (10, -5)
+
+#-------------------------------------
+
