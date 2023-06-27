@@ -51,4 +51,32 @@ print(_txt.count("bc"))
 
 #-------------------------------------
 
-# 5: Count()
+# 5: Endswith()
+
+_txt: str = "apple"
+
+print(_txt.endswith("e"))
+print(_txt.endswith(("e", "a")))   # Tuple formate inside
+
+# Answer: True
+# Answer: True
+
+
+# 5: Endswith()
+
+_txt: str = "appla"
+
+print(_txt.endswith(("e", "a")))   # Tuple formate inside checking more charecter
+
+# Answer: True
+
+
+# 5: Endswith()
+
+_txt: str = "applz"
+
+print(_txt.endswith(("e", "a")))  # Tuple formate inside checking more charecter, But when it's check 'z' in the last charecter, it's give False result.
+
+# Answer: False
+
+#-------------------------------------
