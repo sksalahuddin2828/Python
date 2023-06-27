@@ -24,3 +24,20 @@ print(txt_.casefold())
 
 #-------------------------------------
 
+# 3: Center()
+
+txt_: str = "Hello, World!"
+_txt: str = "Hello, World!"
+
+print(txt_.center(20))
+print(_txt.center(20, "."))
+print(_txt.center(20, "-"))
+print(_txt.center(20, "_"))
+
+# Answer:    Hello, World!
+# Answer: ...Hello, World!....
+# Answer: ---Hello, World!----
+# Answer: ___Hello, World!____
+
+#-------------------------------------
+
