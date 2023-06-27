@@ -220,4 +220,20 @@ print(_txt.isnumeric())
 
 #-------------------------------------
 
-# 15: 
+# 15: IsIdentifier()  # variable name check, if it's valid
+
+_txt: str = "_name"        
+txt_: str = "test_name"
+_txt_: str = "123name"
+
+print(_txt.isidentifier())
+print(txt_.isidentifier())
+print(_txt_.isidentifier())
+
+# Answer: True
+# Answer: True
+# Answer: False
+
+#-------------------------------------
+
+# 16: 
