@@ -168,4 +168,48 @@ print(txt_.isascii())
 
 #-------------------------------------
 
-# 13:
+# 13: IsDecimal()
+# If a string is a decimal, it also a degit and numeric
+
+_txt: str = "123"
+txt_: str = "Aa123"
+
+print(_txt.isdecimal())
+print(txt_.isdecimal())
+
+# Answer: True
+# Answer: False
+
+#-------------------------------------
+
+# 14: IsDigit()
+# If a string is a digit, then it is also numeric
+
+txt_: str = "123"
+_txt: str = "①②③④⑤⑥⑦⑧⑨"                # Note that these bubble characters are numeric
+
+print(txt_.isdigit())
+print(_txt.isdigit())
+
+# Answer: True
+# Answer: True
+
+#-------------------------------------
+
+# 14: IsNumeric()
+
+_txt_: str = "123"
+txt_: str = "①②③④⑤⑥⑦⑧⑨" # Not
+_txt: str = "一二三四五六七八九十"        # This Japanese character number is numeric, it won't work on isdigit()
+
+print(_txt_.isnumeric())
+print(txt_.isnumeric())
+print(_txt.isnumeric())
+
+# Answer: True
+# Answer: True
+# Answer: True
+
+#-------------------------------------
+
+# 15: 
