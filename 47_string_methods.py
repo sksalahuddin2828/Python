@@ -189,13 +189,16 @@ print(txt_.isdecimal())
 # 14: IsDigit()
 
 txt_: str = "123"
-_txt: str = "①②③④⑤⑥⑦⑧⑨"                # Note that these bubble characters are numeric
+_txt: str = "①②③④⑤⑥⑦⑧⑨"                # Note that these bubble characters are numeric.
+_txt_: str = "一二三四五六七八九十"      # This Japanese character number is numeric, it won't work on isdigit().
 
 print(txt_.isdigit())
 print(_txt.isdigit())
+print(_txt_.isdigit())
 
 # Answer: True
 # Answer: True
+# Answer: False
 
 #-------------------------------------
 
@@ -205,7 +208,7 @@ print(_txt.isdigit())
 
 _txt_: str = "123"
 txt_: str = "①②③④⑤⑥⑦⑧⑨" 
-_txt: str = "一二三四五六七八九十"        # This Japanese character number is numeric, it won't work on isdigit()
+_txt: str = "一二三四五六七八九十"        # This Japanese character number is numeric number.
 
 print(_txt_.isnumeric())
 print(txt_.isnumeric())
