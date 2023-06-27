@@ -204,7 +204,7 @@ print(_txt_.isdigit())
 
 # Numeric can also work with isdecimal() and isdigit()
 
-# 14: IsNumeric()
+# 15: IsNumeric()
 
 _txt_: str = "123"
 txt_: str = "①②③④⑤⑥⑦⑧⑨" 
@@ -220,7 +220,7 @@ print(_txt.isnumeric())
 
 #-------------------------------------
 
-# 15: IsIdentifier()  # variable name check, if it's valid
+# 16: IsIdentifier()  # variable name check, if it's valid
 
 _txt: str = "_name"        
 txt_: str = "test_name"
@@ -236,7 +236,7 @@ print(_txt_.isidentifier())
 
 #-------------------------------------
 
-# 16: IsPrintable()
+# 17: IsPrintable()
 
 _txt: str = "Hello World\n" 
 txt_: str = "Hello World" 
@@ -246,6 +246,32 @@ print(txt_.isprintable())
 
 # Answer: False
 # Answer: True
+
+#-------------------------------------
+
+# 17: IsLower()
+
+_txt: str = "Hello World!" 
+txt_: str = "hello world!" 
+
+print(_txt.islower())
+print(txt_.islower())
+
+# Answer: False
+# Answer: True
+
+#-------------------------------------
+
+# 18: IsUpper()
+
+_txt: str = "HELLO WORLD!" 
+txt_: str = "hello world!" 
+
+print(_txt.isupper())
+print(txt_.isupper())
+
+# Answer: True
+# Answer: False
 
 #-------------------------------------
 
