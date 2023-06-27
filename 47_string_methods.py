@@ -80,3 +80,15 @@ print(_txt.endswith(("e", "a")))  # Tuple formate inside checking more charecter
 # Answer: False
 
 #-------------------------------------
+
+# 6: Expandtabs()
+
+_txt: str = "first_tab\tsecond_tab\tthird_tab"
+
+print(_txt.expandtabs(20))
+
+# Answer: first_tab           second_tab          third_tab
+
+#-------------------------------------
+
+# 7: 
