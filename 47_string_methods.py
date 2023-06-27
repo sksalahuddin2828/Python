@@ -324,5 +324,18 @@ print('-'.join(['text1', 'text2', 'text3']))
 
 #-------------------------------------
 
-# 22:
+# 22: LJust()
+
+txt: str = 'hello'
+_txt: str = 'world'
+
+print(txt.ljust(20, '_'))
+print(_txt.ljust(20, '-'))
+
+# Answer: hello_______________
+# Answer: world---------------
+
+#-------------------------------------
+
+# 23: 
 
