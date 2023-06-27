@@ -275,4 +275,37 @@ print(txt_.isupper())
 
 #-------------------------------------
 
-# 19:
+# 19: IsSpace()
+
+_txt: str = "     "
+
+print(_txt.isspace())
+
+# Answer: True
+
+_txt: str = "A    "
+
+print(_txt.isspace())
+
+# Answer: False
+
+#-------------------------------------
+
+# 20: IsTitle()
+
+txt_: str = "This Is Title"
+
+print(txt_.istitle())
+
+# Answer: True
+
+_txt: str = "This is title"
+
+print(_txt.istitle())
+
+# Answer: False
+
+#-------------------------------------
+
+# 21:
+
