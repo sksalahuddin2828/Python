@@ -129,3 +129,17 @@ print(_txt.format_map(points))
 
 #-------------------------------------
 
+# 10: Index()
+
+_txt: str = "Remember to Follow me in GitHub!"
+
+possition: int = _txt.index("Follow")
+print(possition)
+print(_txt[possition:])
+
+# Answer: 12          
+# Answer: Follow me in GitHub!
+
+#-------------------------------------
+
+# 11: 
