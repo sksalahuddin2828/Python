@@ -236,4 +236,16 @@ print(_txt_.isidentifier())
 
 #-------------------------------------
 
-# 16: 
+# 16: IsPrintable()
+
+_txt: str = "Hello World\n" 
+txt_: str = "Hello World" 
+
+print(_txt.isprintable())
+print(txt_.isprintable())
+
+# Answer: False
+# Answer: True
+
+#-------------------------------------
+
