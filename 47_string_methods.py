@@ -145,7 +145,7 @@ print(_txt[possition:])
 # 11: IsAlNum()
 
 _txt: str = "helloRaya123"
-txt_: str = "helloRaya123!"   # Because here are exclamation mark symbol. ( False )
+txt_: str = "helloRaya123!"   # Because here are 'exclamation = !' mark symbol. ( False )
 
 print(_txt.isalnum())
 print(txt_.isalnum())
@@ -155,4 +155,17 @@ print(txt_.isalnum())
 
 #-------------------------------------
 
-# 12: 
+# 12: IsAscii()
+
+_txt: str = "helloRaya123"
+txt_: str = "helloRaya123©"    # Because here are 'copyright = ©' mark symbol. ( False )
+
+print(_txt.isascii())
+print(txt_.isascii())
+
+# Answer: True
+# Answer: False
+
+#-------------------------------------
+
+# 13:
