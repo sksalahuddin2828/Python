@@ -414,11 +414,20 @@ print(txt.removesuffix('Apps'))
 
 #-------------------------------------
 
-# 31: 
+# 31: Replace()
 
-# Answer: 
+txt: str = 'Remember to Follow.'
+
+print(txt.replace('Remember', 'Subscribe'))
+
+# Answer: Subscribe to Follow.
 
 #-------------------------------------
 
 # 32: 
 
+# Answer:
+
+#-------------------------------------
+
+# 33: 
