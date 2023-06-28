@@ -392,5 +392,33 @@ print(txt.partition('='))
 
 #-------------------------------------
 
-# 29: 
+# 29: RemovePrefix()
+
+txt: str = 'Google Apps'
+
+print(txt.removeprefix('Google'))
+print(txt.removeprefix('Google').strip())  # Using strip() functions or methods to remove white space from (left and right) both side
+
+# Answer:  Apps
+# Answer: Apps
+
+#-------------------------------------
+
+# 30: RemoveSuffix()
+
+txt: str = 'Google Apps'
+
+print(txt.removesuffix('Apps'))
+
+# Answer: Google
+
+#-------------------------------------
+
+# 31: 
+
+# Answer: 
+
+#-------------------------------------
+
+# 32: 
 
