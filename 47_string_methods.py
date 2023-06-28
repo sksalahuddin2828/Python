@@ -581,6 +581,18 @@ print(txt.title())
 
 #-------------------------------------
 
-# 45: 
+# 45: zfill()
 
+txt: str = 'some text'
+print(txt.zfill(20))
 
+# Answer: 00000000000some text
+
+txt: str = '30'
+print(txt.zfill(5))
+
+# Answer: 00030
+
+#-------------------------------------
+
+# 46: 
