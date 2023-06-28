@@ -337,5 +337,31 @@ print(_txt.ljust(20, '-'))
 
 #-------------------------------------
 
-# 23: 
+# 23: Lower()
+
+txt: str = 'HELLO, WORLD!'
+
+print(txt.lower())
+
+# Answer: hello, world!
+
+#-------------------------------------
+
+# 24: Upper()
+
+txt: str = 'hello, world!'
+
+print(txt.upper())
+
+# Answer: HELLO, WORLD!
+
+#-------------------------------------
+
+# 25: 
+
+
+
+# Answer: 
+
+#-------------------------------------
 
