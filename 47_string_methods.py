@@ -374,7 +374,7 @@ and
 txt: str = 'This is Banana'
 table = txt.maketrans('a', '😊')
 
-print(table) # ASCII table 'a' = 97 charecter change to 'smile emoji' charecter to 😊 = 128522
+print(table)                      # ASCII table small a value is 'a' = 97 charecter it's change to 'smile emoji' charecter to '😊' = 128522
 print(txt.translate(table))
 
 # Answer: {97: 128522}
