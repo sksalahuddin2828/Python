@@ -477,9 +477,49 @@ print(txt.rjust(20, '_'))
 
 #-------------------------------------
 
-# 36: 
+# 36: rpartition()
 
-# Answer: 
+txt: str = 'text1=text2=text3'
+print(txt.rpartition('=')) 
+
+# Answer: ('text1=text2', '=', 'text3')
+
+txt: str = 'text1=text2=text3'
+print(txt.partition('=')) 
+
+# Answer: ('text1', '=', 'text2=text3')
 
 #-------------------------------------
+
+# 37: split()
+and
+# 38: rsplit()
+
+txt: str = 'This is some special character.'
+print(txt.rsplit(sep=' ')) 
+
+# Answer: ['This', 'is', 'some', 'special', 'character.']
+
+txt: str = 'https://www.example.com/'
+print(txt.rsplit(sep='.')) 
+
+# Answer: ['https://www', 'example', 'com/']
+
+txt: str = 'This is some special character.'
+print(txt.split(maxsplit=2)) 
+
+# Answer: ['This', 'is', 'some special character.']
+
+#-------------------------------------
+
+# 39: RStrip()
+
+txt: str = 'Her name is Raya Raya'
+print(txt.rstrip('Raya')) 
+
+# Answer: Her name is Raya 
+
+#-------------------------------------
+
+# 40: 
 
