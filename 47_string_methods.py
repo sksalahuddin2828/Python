@@ -357,11 +357,36 @@ print(txt.upper())
 
 #-------------------------------------
 
-# 25: 
+# 25: LStrip()
 
+txt: str = 'Hello World.'
 
+print(txt.lstrip('Hello'))
+
+# Answer: World.
+
+#-------------------------------------
+
+# 26: Maketrans() 
+and
+# 27: Translate()
+
+txt: str = 'This is Banana'
+table = txt.maketrans('a', '😊')
+
+print(table) # ASCII table 'a' = 97 charecter change to 'smile emoji' charecter to 😊 = 128522
+print(txt.translate(table))
+
+# Answer: {97: 128522}
+#         This is B😊n😊n😊
+
+#-------------------------------------
+
+# 28: 
 
 # Answer: 
 
 #-------------------------------------
+
+# 29: 
 
