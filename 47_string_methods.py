@@ -428,10 +428,34 @@ print(txt.replace('Follow', 'Subscribe', 1))
 
 #-------------------------------------
 
-# 32: 
+# 32: Find()   # find() use for the first elements
+and
+# 33: RFind()  # rfind() use for the last elements
 
-# Answer:
+txt: str = 'A: Some text. A'
+print(txt.find('A')) 
+
+# Answer: 0
+
+
+txt: str = 'A: Some text. A'
+print(txt.rfind('A')) 
+
+# Answer: 14
+
+# if don't find anything the gives answer negative one or -1 both
+txt: str = 'A: Some text. A'
+print(txt.find('A')) 
+print(txt.rfind('A')) 
+
+# Answer: -1
+# Answer: -1
 
 #-------------------------------------
 
-# 33: 
+# 34: 
+
+# Answer: 
+
+#-------------------------------------
+
