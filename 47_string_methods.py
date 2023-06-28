@@ -368,7 +368,7 @@ print(txt.lstrip('Hello'))
 #-------------------------------------
 
 # 26: Maketrans() 
-and
+# and
 # 27: Translate()
 
 txt: str = 'This is Banana'
@@ -429,7 +429,7 @@ print(txt.replace('Follow', 'Subscribe', 1))
 #-------------------------------------
 
 # 32: Find()   # find() use for the first elements
-and
+# and
 # 33: RFind()  # rfind() use for the last elements
 
 txt: str = 'A: Some text. A'
@@ -492,7 +492,7 @@ print(txt.partition('='))
 #-------------------------------------
 
 # 37: split()
-and
+# and
 # 38: rsplit()
 
 txt: str = 'This is some special character.'
@@ -549,4 +549,38 @@ print(txt.startswith('R'))
 
 #-------------------------------------
 
-# 42: 
+# 42: strip()
+
+txt: str = "Anupama Dey Ray"
+print(txt.strip("Anupama")) 
+
+# Answer: Dey Ray
+
+txt: str = "Anupama Dey Ray"
+print(txt.strip("Ray")) 
+
+# Answer: Anupama Dey 
+
+#-------------------------------------
+
+# 43: swapcase()
+
+txt: str = "Anupama Dey Ray"
+print(txt.swapcase()) 
+
+# Answer: aNUPAMA dEY rAY
+
+#-------------------------------------
+
+# 44: title()
+
+txt: str = "this is a title"
+print(txt.title()) 
+
+# Answer: This Is A Title
+
+#-------------------------------------
+
+# 45: 
+
+
