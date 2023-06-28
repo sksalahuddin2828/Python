@@ -382,9 +382,13 @@ print(txt.translate(table))
 
 #-------------------------------------
 
-# 28: 
+# 28: Partition()
 
-# Answer: 
+txt: str = 'a+b=c'
+
+print(txt.partition('='))
+
+# Answer: ('a+b', '=', 'c')
 
 #-------------------------------------
 
