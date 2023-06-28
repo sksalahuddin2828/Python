@@ -535,5 +535,18 @@ print(txt.splitlines())
 
 #-------------------------------------
 
-# 41: 
+# 41: startswith()
 
+txt: str = "Anupama Dey Raya"
+print(txt.startswith('A')) 
+
+# Answer: True
+
+txt: str = "Anupama Dey Raya"
+print(txt.startswith('R')) 
+
+# Answer: False
+
+#-------------------------------------
+
+# 42: 
