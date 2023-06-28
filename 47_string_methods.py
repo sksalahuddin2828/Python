@@ -453,9 +453,19 @@ print(txt.rfind('A'))
 
 #-------------------------------------
 
-# 34: 
+# 34: RIndex()
 
-# Answer: 
+txt: str = 'A: Some text. A'
+print(txt.rindex('A')) 
+
+# Answer: 14
+
+txt: str = 'A: Some text. A'
+print(txt.rindex('B'))       # if not found, raises error
+
+# Answer: substring not found
 
 #-------------------------------------
+
+# 35: 
 
