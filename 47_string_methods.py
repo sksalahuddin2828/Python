@@ -514,12 +514,26 @@ print(txt.split(maxsplit=2))
 
 # 39: RStrip()
 
-txt: str = 'Her name is Raya Raya'
-print(txt.rstrip('Raya')) 
+txt: str = 'Her name is Raya Raya'  
+print(txt.rstrip('Raya'))           
 
-# Answer: Her name is Raya 
+# Answer: Her name is Raya         # last one 'Raya' is remove
 
 #-------------------------------------
 
-# 40: 
+# 40: splitlines()
+
+txt: str = "Remember to Follow!\nor else...\n"
+print(txt.splitlines(keepends=True)) 
+
+# Answer: ['Remember to Follow!\n', 'or else...\n']
+
+txt: str = "Remember to Follow!\nor else...\n"
+print(txt.splitlines()) 
+
+# Answer: ['Remember to Follow!', 'or else...']
+
+#-------------------------------------
+
+# 41: 
 
