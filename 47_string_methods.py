@@ -417,10 +417,14 @@ print(txt.removesuffix('Apps'))
 # 31: Replace()
 
 txt: str = 'Remember to Follow.'
-
 print(txt.replace('Remember', 'Subscribe'))
 
 # Answer: Subscribe to Follow.
+
+txt: str = 'Remember to Follow, & Follow.'
+print(txt.replace('Follow', 'Subscribe', 1))
+
+# Answer: Remember to Subscribe, & Follow.
 
 #-------------------------------------
 
