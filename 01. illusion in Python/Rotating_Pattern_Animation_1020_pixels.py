@@ -51,7 +51,7 @@ class MainWindow(QMainWindow):
         cy = 510  # Adjusted center coordinates
         radius = 480  # Adjusted outer circle radius
         pen = QPen(QColor(255, 255, 255))
-        pen.setWidth(3)
+        pen.setWidth(1)
 
         self.drawCircle(cx, cy, radius, QColor(0, 0, 0))
         for i in range(24):  # Adjusted line count
