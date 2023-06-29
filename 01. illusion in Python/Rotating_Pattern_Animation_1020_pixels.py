@@ -1,3 +1,6 @@
+# Rotating Pattern Animation
+# Ball Rotation Visualization
+
 from math import pi, cos, sin
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QGraphicsScene, QGraphicsView
