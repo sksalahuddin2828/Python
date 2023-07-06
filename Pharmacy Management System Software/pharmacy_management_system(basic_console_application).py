@@ -98,9 +98,9 @@ def generate_sales_report():
     # 2. Determine the top-selling drugs by sorting the drug_inventory based on the quantity sold or revenue generated.
     # 3. Display the sales report with relevant information such as total sales, top-selling drugs, etc.
     # You can modify and enhance the code below based on your specific reporting requirements.
-
+    
     total_sales = 0
-    for drug in drug_inventory.values():
+    for name, drug in drug_inventory.items():
         price = drug['price']
         quantity_sold = drug['quantity'] - drug_inventory[name]['quantity']
         total_sales += price * quantity_sold
@@ -112,6 +112,7 @@ def generate_sales_report():
     for drug_name, drug_info in sorted_drugs[:5]:  # Display top 5 selling drugs
         print(f"Drug Name: {drug_name}")
         print(f"Quantity Sold: {drug_info['quantity'] - drug_inventory[drug_name]['quantity']}")
+
 
 def user_authentication():
     # Implementing user authentication depends on your specific requirements and the level of security you need.
@@ -201,3 +202,24 @@ def menu():
             print("Invalid choice. Try again!")
 
 menu()
+
+
+#--------------------------------------------------------------------------------------------
+# After running the program, what you want to do, choose the option according to your choice:
+#--------------------------------------------------------------------------------------------
+
+# Answer: Pharmacy Management System
+#         1. Add Drug
+#         2. Update Drug Information
+#         3. View Drug Information
+#         4. Record Purchase
+#         5. Search Drug
+#         6. Delete Drug
+#         7. Set Expiration Date
+#         8. Check Low Stock Alert
+#         9. Generate Sales Report
+#         10. User Authentication
+#         11. Save Data
+#         12. Load Data
+#         13. Quit
+#         Enter your choice: 
