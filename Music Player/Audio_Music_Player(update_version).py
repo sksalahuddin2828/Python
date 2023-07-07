@@ -1,4 +1,5 @@
 # Now you can increase or decrease the volume here, you can also select multiple songs at once and listen to your favorite songs, delete and add songs as needed.
+# Remember only this files *.mp3;*.wav;*.ogg;*.mp4;*.avi;*.mkv;*.flv;*.mov;*.wmv;*.webm
 
 import os
 import pygame
