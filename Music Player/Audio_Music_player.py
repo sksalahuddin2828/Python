@@ -1,3 +1,5 @@
+# pip install pygame
+
 import os
 import pygame
 from pygame import mixer
