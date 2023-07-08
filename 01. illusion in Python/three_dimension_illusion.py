@@ -54,7 +54,7 @@ class MainWindow(QMainWindow):
         pen.setWidth(2)                                   
 
         self.drawCircle(cx, cy, radius, QColor(0, 0, 0))
-        for i in range(6):  # Adjusted line count         
+        for i in range(6):           
             angle = (i / 6) * 2 * pi                     
             x = cx + radius * cos(angle)
             y = cy + radius * sin(angle)
