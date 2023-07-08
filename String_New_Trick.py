@@ -7,3 +7,6 @@ print(result)
 print(f"{result:,}")
 print(f"{result:_}")
 
+# Answer: 1010000000
+#         1,010,000,000
+#         1_010_000_000
