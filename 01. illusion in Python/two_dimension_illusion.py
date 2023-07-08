@@ -47,9 +47,9 @@ class MainWindow(QMainWindow):
                 self.drawCircle(x, y, 15, QColor(255, 255, 255))  
 
     def createBase(self):
-        cx = 510  # Adjusted center coordinates
-        cy = 510  # Adjusted center coordinates
-        radius = 480  # Adjusted outer circle radius
+        cx = 510  
+        cy = 510  
+        radius = 480  
         pen = QPen(QColor(255, 255, 255))
         pen.setWidth(2)                                   
 
