@@ -47,14 +47,14 @@ class MainWindow(QMainWindow):
                 self.drawCircle(x, y, 15, QColor(255, 255, 255)) 
 
     def createBase(self):
-        cx = 510  # Adjusted center coordinates
-        cy = 510  # Adjusted center coordinates
-        radius = 480  # Adjusted outer circle radius
+        cx = 510  
+        cy = 510  
+        radius = 480 
         pen = QPen(QColor(255, 255, 255))
         pen.setWidth(2)                                   
 
         self.drawCircle(cx, cy, radius, QColor(0, 0, 0))
-        for i in range(2):  # Adjusted line count         
+        for i in range(2):          
             angle = (i / 2) * 2 * pi                      
             x = cx + radius * cos(angle)
             y = cy + radius * sin(angle)
