@@ -28,10 +28,10 @@ class MainWindow(QMainWindow):
         circle = pi * 2
         length = 2                                        
         half_length = length // 2
-        cx = 510  # Adjusted center coordinates
-        cy = 510  # Adjusted center coordinates
-        w = 450  # Adjusted ball distance from center
-        h = 450  # Adjusted ball distance from center
+        cx = 510  
+        cy = 510  
+        w = 450  
+        h = 450  
 
         for i in range(length):
             a = (i / length) * circle
