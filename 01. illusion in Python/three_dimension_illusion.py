@@ -19,7 +19,7 @@ class MainWindow(QMainWindow):
         self.timer.setInterval(100)
         self.timer.timeout.connect(self.animateWorld)
         self.timer.start()
-        self.angle = 0  # Initialize rotation angle
+        self.angle = 0  
 
     def animateWorld(self):
         self.scene.clear()
@@ -47,9 +47,9 @@ class MainWindow(QMainWindow):
                 self.drawCircle(x, y, 15, QColor(255, 255, 255))  
 
     def createBase(self):
-        cx = 510  # Adjusted center coordinates
-        cy = 510  # Adjusted center coordinates
-        radius = 480  # Adjusted outer circle radius
+        cx = 510  
+        cy = 510  
+        radius = 480  
         pen = QPen(QColor(255, 255, 255))
         pen.setWidth(2)                                   
 
