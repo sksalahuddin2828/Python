@@ -8,10 +8,10 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Rotating Pattern")
-        self.setGeometry(100, 100, 1020, 1020)  # Adjusted window size
+        self.setGeometry(100, 100, 1020, 1020) 
         self.scene = QGraphicsScene()
         self.view = QGraphicsView(self.scene, self)
-        self.view.setGeometry(0, 0, 1020, 1020)  # Adjusted view size
+        self.view.setGeometry(0, 0, 1020, 1020)  
         self.view.setVerticalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.view.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.view.setBackgroundBrush(QBrush(QColor(0, 0, 0)))
@@ -19,12 +19,12 @@ class MainWindow(QMainWindow):
         self.timer.setInterval(100)
         self.timer.timeout.connect(self.animateWorld)
         self.timer.start()
-        self.angle = 0  # Initialize rotation angle
+        self.angle = 0  
 
     def animateWorld(self):
         self.scene.clear()
         self.createBase()
-        self.angle += 0.20  # Update rotation angle for each frame  
+        self.angle += 0.20  
         circle = pi * 2
         length = 2                                        
         half_length = length // 2
@@ -40,7 +40,7 @@ class MainWindow(QMainWindow):
             self.drawCircle(x, y, 15, QColor(255, 255, 255))  
 
             if i >= half_length:
-                inner_angle = a + self.angle  # Update inner ball rotation angle
+                inner_angle = a + self.angle  
                 range_val = cos(inner_angle)
                 x = cx + round(cos(a) * (w - 1) * range_val)
                 y = cy + round(sin(a) * (h - 1) * range_val)
