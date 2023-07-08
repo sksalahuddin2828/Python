@@ -40,16 +40,16 @@ class MainWindow(QMainWindow):
             self.drawCircle(x, y, 15, QColor(255, 255, 255))  
 
             if i >= half_length:
-                inner_angle = a + self.angle  # Update inner ball rotation angle
+                inner_angle = a + self.angle  
                 range_val = cos(inner_angle)
                 x = cx + round(cos(a) * (w - 1) * range_val)
                 y = cy + round(sin(a) * (h - 1) * range_val)
                 self.drawCircle(x, y, 15, QColor(255, 255, 255))  
 
     def createBase(self):
-        cx = 510  # Adjusted center coordinates
-        cy = 510  # Adjusted center coordinates
-        radius = 480  # Adjusted outer circle radius
+        cx = 510  
+        cy = 510  
+        radius = 480  
         pen = QPen(QColor(255, 255, 255))
         pen.setWidth(2)                                  
 
