@@ -1,5 +1,5 @@
 import math
-
+ 
 def calculate_bmi(weight, height):
     """
     Calculates the Body Mass Index (BMI) given weight in kilograms (kg) and height in meters (m).
@@ -54,3 +54,4 @@ height = 170  # cm
 gender = "male"
 ideal_weight = calculate_ideal_body_weight(height, gender)
 print(f"Ideal Body Weight: {ideal_weight:.2f} kg")
+
