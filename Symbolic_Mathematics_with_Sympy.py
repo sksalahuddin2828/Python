@@ -1,124 +1,149 @@
-# Program 1:
+# Number of program 1
 import sympy
 from sympy import N, sqrt
 
 # Calculate square root of 2 with 100 decimal places
-result = N(sqrt(2), 100)
-print(result)
+square_root_2 = N(sqrt(2), 100)
+print(square_root_2)
 
-# Program 2:
+# PNumber of program 2
 from sympy import Rational
 
 # Add rational numbers
-a = Rational(1, 2)
-b = Rational(1, 3)
-sum_result = a + b
+half = Rational(1, 2)
+third = Rational(1, 3)
+sum_result = half + third
 print(sum_result)
 
-# Program 3:
+# Number of program 3
 import sympy as sym
 
 # Expand a binomial expression
-x, y = sym.symbols('x y')
-expression = (x + y)**6
-expanded_expr = sym.expand(expression)
+var_x, var_y = sym.symbols('x y')
+binomial_expr = (var_x + var_y)**6
+expanded_expr = sym.expand(binomial_expr)
 print(expanded_expr)
 
-# Program 4:
+# Number of program 4
 import sympy
 from sympy import Symbol, simplify, sin, cos
 
 # Simplify a trigonometric expression
-x = Symbol('x')
-trig_expr = sin(x) / cos(x)
+var_x = Symbol('x')
+trig_expr = sin(var_x) / cos(var_x)
 simplified_expr = simplify(trig_expr)
 print(simplified_expr)
 
-# Program 5:
+# Number of program 5
 import sympy
 from sympy import Symbol, solveset, sin
 
 # Solve an equation involving a trigonometric function
-x = Symbol('x')
-equation = (sin(x) - x) / (x**3)
-solution_set = solveset(equation, x)
+var_x = Symbol('x')
+equation = (sin(var_x) - var_x) / (var_x**3)
+solution_set = solveset(equation, var_x)
 print(solution_set)
 
-# Program 6:
+# Number of program 6
 import sympy
 from sympy import symbols, log, Derivative
 
 # Calculate derivatives
-x = symbols('x')
-expr1 = log(x)
-expr1_diff = Derivative(expr1, x)
-expr1_derivative = expr1_diff.doit()
-print(f"Derivative of expression with respect to x: {expr1_diff}")
-print(f"Value of the derivative: {expr1_derivative}")
+var_x = symbols('x')
+log_expr = log(var_x)
+log_derivative = Derivative(log_expr, var_x)
+log_derivative_value = log_derivative.doit()
+print(f"Derivative of log(x) with respect to x: {log_derivative}")
+print(f"Value of the derivative: {log_derivative_value}")
 
-expr2 = 1 / x
-expr2_diff = Derivative(expr2, x)
-expr2_derivative = expr2_diff.doit()
-print(f"Derivative of expression with respect to x: {expr2_diff}")
-print(f"Value of the derivative: {expr2_derivative}")
+inverse_expr = 1 / var_x
+inverse_derivative = Derivative(inverse_expr, var_x)
+inverse_derivative_value = inverse_derivative.doit()
+print(f"Derivative of 1/x with respect to x: {inverse_derivative}")
+print(f"Value of the derivative: {inverse_derivative_value}")
 
-expr3 = sin(x)
-expr3_diff = Derivative(expr3, x)
-expr3_derivative = expr3_diff.doit()
-print(f"Derivative of expression with respect to x: {expr3_diff}")
-print(f"Value of the derivative: {expr3_derivative}")
+sin_expr = sin(var_x)
+sin_derivative = Derivative(sin_expr, var_x)
+sin_derivative_value = sin_derivative.doit()
+print(f"Derivative of sin(x) with respect to x: {sin_derivative}")
+print(f"Value of the derivative: {sin_derivative_value}")
 
-expr4 = cos(x)
-expr4_diff = Derivative(expr4, x)
-expr4_derivative = expr4_diff.doit()
-print(f"Derivative of expression with respect to x: {expr4_diff}")
-print(f"Value of the derivative: {expr4_derivative}")
+cos_expr = cos(var_x)
+cos_derivative = Derivative(cos_expr, var_x)
+cos_derivative_value = cos_derivative.doit()
+print(f"Derivative of cos(x) with respect to x: {cos_derivative}")
+print(f"Value of the derivative: {cos_derivative_value}")
 
-# Program 7:
+# Number of program 7
 import sympy
 from sympy import symbols, Eq, solve
 
 # Solve a system of equations
-x, y = symbols('x y')
-eq1 = Eq(x + y - 2, 0)
-eq2 = Eq(2 * x + y, 0)
-solution_dict = solve((eq1, eq2), (x, y))
-print(f"x = {solution_dict[x]}")
-print(f"y = {solution_dict[y]}")
+var_x, var_y = symbols('x y')
+equation1 = Eq(var_x + var_y - 2, 0)
+equation2 = Eq(2 * var_x + var_y, 0)
+solution_dict = solve((equation1, equation2), (var_x, var_y))
+print(f"x = {solution_dict[var_x]}")
+print(f"y = {solution_dict[var_y]}")
 
-# Program 8:
+# Number of program 8
 import sympy
 from sympy import symbols, integrate, sin, cos
 
 # Perform integrations
-x = symbols('x')
-integrated_expr1 = integrate(x**2, x)
+var_x = symbols('x')
+integrated_expr1 = integrate(var_x**2, var_x)
 print(f"Integration of x^2: {integrated_expr1}")
 
-integrated_expr2 = integrate(sin(x), x)
+integrated_expr2 = integrate(sin(var_x), var_x)
 print(f"Integration of sin(x): {integrated_expr2}")
 
-integrated_expr3 = integrate(cos(x), x)
+integrated_expr3 = integrate(cos(var_x), var_x)
 print(f"Integration of cos(x): {integrated_expr3}")
 
-# Program 9:
+# Number of program 9
 import sympy as sym
 from sympy import symbols, Function, Eq, dsolve
 
 # Solve a differential equation
-x = symbols('x')
-f = Function('f')(x)
-equation = Eq(f.diff(x, x) + 9 * f, 1)
-solution = dsolve(equation, f)
+var_x = symbols('x')
+function_f = Function('f')(var_x)
+differential_equation = Eq(function_f.diff(var_x, var_x) + 9 * function_f, 1)
+solution = dsolve(differential_equation, function_f)
 print(solution)
 
-# Program 10:
+# Number of program 10
 import sympy as sym
 from sympy import symbols, Matrix, linsolve
 
 # Solve a linear system of equations
-x, y, z = symbols('x y z')
-M = Matrix(((3, 7, -12, 0), (4, -2, -5, 0)))
-system = A, b = M[:, :-1], M[:, -1]
-solution_set = linsolve(system, x, y, z)
+var_x, var_y, var_z = symbols('x y z')
+coeff_matrix = Matrix(((3, 7, -12, 0), (4, -2, -5, 0)))
+system = coefficient_matrix, constants = coeff_matrix[:, :-1], coeff_matrix[:, -1]
+solution_set = linsolve(system, var_x, var_y, var_z)
 print(solution_set)
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Answer: 1.414213562373095048801688724209698078569671875376948073176679737990732478462107038850387534327641573
+#         5/6
+#         x**6 + 6*x**5*y + 15*x**4*y**2 + 20*x**3*y**3 + 15*x**2*y**4 + 6*x*y**5 + y**6
+#         tan(x)
+#         Complement(ConditionSet(x, Eq(-x + sin(x), 0), Complexes), {0})
+#         Derivative of log(x) with respect to x: Derivative(log(x), x)
+#         Value of the derivative: 1/x
+#         Derivative of 1/x with respect to x: Derivative(1/x, x)
+#         Value of the derivative: -1/x**2
+#         Derivative of sin(x) with respect to x: Derivative(sin(x), x)
+#         Value of the derivative: cos(x)
+#         Derivative of cos(x) with respect to x: Derivative(cos(x), x)
+#         Value of the derivative: -sin(x)
+#         x = -2
+#         y = 4
+#         Integration of x^2: x**3/3
+#         Integration of sin(x): -cos(x)
+#         Integration of cos(x): sin(x)
+#         Eq(f(x), C1*sin(3*x) + C2*cos(3*x) + 1/9)
+#         {(59*z/34, 33*z/34, z)}
