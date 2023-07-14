@@ -44,8 +44,18 @@ for i in range(10):
 
 # 4. Returning the Nth Value from the Fibonacci Sequence:
 
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
 
+# Getting the 10th Fibonacci number
+n = 10
+fibonacci_number = fibonacci(n)
+print(fibonacci_number)  # Output: 55
 
 #----------------------------------------------------------------------------------------------------------------------------------------------
 
-5. 
+# 5. Finding the Average of Numbers:
+
