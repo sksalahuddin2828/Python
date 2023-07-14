@@ -16,7 +16,9 @@
 
 decimal_number = 25
 octal_number = oct(decimal_number)[2:]
-print(octal_number)  # Output: 31
+print(octal_number)  
+
+# Output: 31
 
 #----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -24,7 +26,9 @@ print(octal_number)  # Output: 31
 
 number = 12345
 reversed_number = int(str(number)[::-1])
-print(reversed_number)  # Output: 54321
+print(reversed_number)  
+
+# Output: 54321
 
 #----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -53,9 +57,16 @@ def fibonacci(n):
 # Getting the 10th Fibonacci number
 n = 10
 fibonacci_number = fibonacci(n)
-print(fibonacci_number)  # Output: 55
+print(fibonacci_number)  
+
+# Output: 55
 
 #----------------------------------------------------------------------------------------------------------------------------------------------
 
 # 5. Finding the Average of Numbers:
 
+numbers = [10, 20, 30, 40, 50]
+average = sum(numbers) / len(numbers)
+print(average)  
+
+# Output: 30.0
