@@ -20,6 +20,13 @@ print(octal_number)
 
 # Output: 31
 
+
+decimal_number = 42
+octal_number = oct(decimal_number)
+print(octal_number)  
+
+# Output: 0o52
+
 #----------------------------------------------------------------------------------------------------------------------------------------------
 
 # 2. Reversing an Integer:
@@ -44,6 +51,26 @@ def fibonacci(n):
 for i in range(10):
     print(fibonacci(i))
 
+#----------------------------------------------Printing the Fibonacci Series Using Recursion: (Another way)------------------------------------
+
+def fibonacci(n):
+    if n <= 0:
+        return []
+    elif n == 1:
+        return [0]
+    elif n == 2:
+        return [0, 1]
+    else:
+        sequence = fibonacci(n - 1)
+        sequence.append(sequence[-1] + sequence[-2])
+        return sequence
+
+n = 10  # The number of Fibonacci numbers to print
+fib_series = fibonacci(n)
+print(fib_series) 
+
+# Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
 #----------------------------------------------------------------------------------------------------------------------------------------------
 
 # 4. Returning the Nth Value from the Fibonacci Sequence:
@@ -61,6 +88,27 @@ print(fibonacci_number)
 
 # Output: 55
 
+#-------------------------------------------Returning the Nth Value from the Fibonacci Sequence: (Another way)---------------------------------
+
+def fibonacci(n):
+    if n <= 0:
+        return None
+    elif n == 1:
+        return 0
+    elif n == 2:
+        return 1
+    else:
+        a, b = 0, 1
+        for _ in range(n - 2):
+            a, b = b, a + b
+        return b
+
+n = 7  # The position of the Fibonacci number to find
+fib_value = fibonacci(n)
+print(fib_value) 
+
+# Output: 8
+
 #----------------------------------------------------------------------------------------------------------------------------------------------
 
 # 5. Finding the Average of Numbers:
@@ -70,3 +118,20 @@ average = sum(numbers) / len(numbers)
 print(average)  
 
 # Output: 30.0
+
+#-----------------------------------------------------Finding the Average of Numbers: (Another way)-------------------------------------------
+
+def calculate_average(numbers):
+    if len(numbers) == 0:
+        return None
+    else:
+        total = sum(numbers)
+        average = total / len(numbers)
+        return average
+
+number_list = [2, 4, 6, 8, 10]
+avg = calculate_average(number_list)
+print(avg)  
+
+# Output: 6.0
+
